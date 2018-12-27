@@ -1,5 +1,5 @@
 <?php
-//详细介绍见：shildDirtyWords.php
+//这是个demo，详细介绍见：shildDirtyWords.php
 
 //引入屏蔽处理类
 include_once __DIR__.'/shildDirtyWords.php';
