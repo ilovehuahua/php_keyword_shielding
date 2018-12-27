@@ -11,9 +11,9 @@ PHP敏感词过滤，基于DFA敏感词过滤算法，忽略所有(空格,`,~,#,
  -----------------------------------------------------------
 DEMO举例
 
-//引入屏蔽处理类
-include_once __DIR__.'/shildDirtyWords.php';
-//要处理的对话内容
-$testWords="好圣女峰，你个大s #b，全部去吃^ 屎cs  b吧！";
-//调用屏蔽函数，返回屏蔽后的内容
-var_dump(shildDirtyWords::findAndHideKeyWords($testWords));
+ * 引入屏蔽处理类
+## include_once __DIR__.'/shildDirtyWords.php';
+ * 要处理的对话内容
+## $testWords="好圣女峰，你个大s #b，全部去吃^ 屎cs  b吧！";
+ * 调用屏蔽函数，返回屏蔽后的内容
+## var_dump(shildDirtyWords::findAndHideKeyWords($testWords));
